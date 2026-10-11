@@ -310,6 +310,22 @@
 
 ---
 
+## 過去一年。
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 1100px)" srcset="https://teddashh.github.io/github-profile-summary-cards/teddashh/zh-TW/card-narrow-dark.svg">
+    <source media="(prefers-color-scheme: light) and (max-width: 1100px)" srcset="https://teddashh.github.io/github-profile-summary-cards/teddashh/zh-TW/card-narrow-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://teddashh.github.io/github-profile-summary-cards/teddashh/zh-TW/card-medium-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://teddashh.github.io/github-profile-summary-cards/teddashh/zh-TW/card-medium-light.svg">
+    <img src="https://teddashh.github.io/github-profile-summary-cards/teddashh/zh-TW/card-medium-light.svg" width="100%" alt="我過去 12 個月的 GitHub 動態：總數、每週貢獻、Commit 時段（UTC）和主要語言。">
+  </picture>
+</p>
+
+<p align="center"><sub>只用公開資料，每天自動更新，圖是我 fork 的 <a href="https://github.com/teddashh/github-profile-summary-cards">github-profile-summary-cards</a> 畫的。</sub></p>
+
+---
+
 ## 我怎麼做。
 
 <table width="100%">
