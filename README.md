@@ -211,14 +211,14 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/mcp-memory-server/">MCP Memory Server</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/mcp-memory-server/">MCP Memory Server</a></strong><br>
       <code>PAUSED</code>
     </td>
     <td width="68%" valign="top">
       An MCP server for long-term agent memory: decisions, resolved issues, open questions, and knowledge that you can inspect.<br><br>
-      <a href="https://github.com/teddashh/mcp-memory-server/stargazers"><img alt="MCP Memory Server stars" src="https://img.shields.io/github/stars/teddashh/mcp-memory-server?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/mcp-memory-server/stargazers"><img alt="MCP Memory Server stars" src="https://img.shields.io/github/stars/TED-H-com/mcp-memory-server?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Python</code> <code>FastMCP</code> <code>SQLite</code><br><br>
-      <a href="https://teddashh.github.io/mcp-memory-server/">Project page ↗</a> · <a href="https://github.com/teddashh/mcp-memory-server">Source ↗</a>
+      <a href="https://ted-h-com.github.io/mcp-memory-server/">Project page ↗</a> · <a href="https://github.com/TED-H-com/mcp-memory-server">Source ↗</a>
     </td>
   </tr>
 </table>
