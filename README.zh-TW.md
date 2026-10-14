@@ -74,74 +74,74 @@
 <table width="100%">
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/multi-ai-chat-desktop/?lang=zh-TW">Multi-AI Chat Desktop</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/multi-ai-chat-desktop/?lang=zh-TW">Multi-AI Chat Desktop</a></strong><br>
       <code>持續開發</code>
     </td>
     <td width="68%" valign="top">
       可攜式桌面 app，用引導式流程同時操作你已登入的 ChatGPT、Claude、Gemini、Grok，不需要 API key。<br><br>
-      <a href="https://github.com/teddashh/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat-desktop?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat-desktop?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-chat-desktop?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-chat-desktop?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
-      <a href="https://teddashh.github.io/multi-ai-chat-desktop/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/multi-ai-chat-desktop">原始碼 ↗</a> · <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest">下載 ↗</a>
+      <a href="https://ted-h-com.github.io/multi-ai-chat-desktop/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat-desktop">原始碼 ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/releases/latest">下載 ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/multi-ai-chat/?lang=zh-TW">Multi-AI Chat</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/multi-ai-chat/?lang=zh-TW">Multi-AI Chat</a></strong><br>
       <code>持續開發</code>
     </td>
     <td width="68%" valign="top">
       Chrome 側邊面板，把你已經開著的 AI 分頁串成一條多模型工作流程。<br><br>
-      <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/multi-ai-chat/releases/latest"><img alt="Multi-AI Chat release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-chat?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-chat/releases/latest"><img alt="Multi-AI Chat release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-chat?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>Chrome MV3</code> <code>React</code> <code>TypeScript</code><br><br>
-      <a href="https://teddashh.github.io/multi-ai-chat/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/multi-ai-chat">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/multi-ai-chat/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat">原始碼 ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/multi-ai-terminal/?lang=zh-TW">Multi-AI Terminal</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/multi-ai-terminal/?lang=zh-TW">Multi-AI Terminal</a></strong><br>
       <code>暫停開發</code>
     </td>
     <td width="68%" valign="top">
       本機工作台，在 Claude Code、Codex、Grok、Antigravity 的 headless runtime 上跑分階段的多 agent 工作流程，有關卡，也有可重播的證據紀錄。<br><br>
-      <a href="https://github.com/teddashh/multi-ai-terminal/stargazers"><img alt="Multi-AI Terminal stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-terminal?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/multi-ai-terminal/releases/latest"><img alt="Multi-AI Terminal release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-terminal?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/multi-ai-terminal/stargazers"><img alt="Multi-AI Terminal stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-terminal?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-terminal/releases/latest"><img alt="Multi-AI Terminal release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-terminal?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>TypeScript</code> <code>React</code> <code>Node.js</code> <code>Tauri 2</code><br><br>
-      <a href="https://teddashh.github.io/multi-ai-terminal/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/multi-ai-terminal">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/multi-ai-terminal/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-terminal">原始碼 ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/AI-Sister/?lang=zh-TW">AI-Sister</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/AI-Sister/?lang=zh-TW">AI-Sister</a></strong><br>
       <code>持續開發</code>
     </td>
     <td width="68%" valign="top">
       本機優先的桌面陪伴：記得你做過什麼，大部分時間保持安靜，每句回答都附上出處。<br><br>
-      <a href="https://github.com/teddashh/AI-Sister/stargazers"><img alt="AI-Sister stars" src="https://img.shields.io/github/stars/teddashh/AI-Sister?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/AI-Sister/releases"><img alt="AI-Sister release" src="https://img.shields.io/github/v/release/teddashh/AI-Sister?include_prereleases&amp;style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/AI-Sister/stargazers"><img alt="AI-Sister stars" src="https://img.shields.io/github/stars/TED-H-com/AI-Sister?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/AI-Sister/releases"><img alt="AI-Sister release" src="https://img.shields.io/github/v/release/TED-H-com/AI-Sister?include_prereleases&amp;style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>Tauri 2</code> <code>Rust</code> <code>SQLite</code> <code>Windows OCR</code><br><br>
-      <a href="https://teddashh.github.io/AI-Sister/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/AI-Sister">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/AI-Sister/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/AI-Sister">原始碼 ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/ai-brainstorming/?lang=zh-TW">AI Brainstorming</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/ai-brainstorming/?lang=zh-TW">AI Brainstorming</a></strong><br>
       <code>暫停開發</code>
     </td>
     <td width="68%" valign="top">
       點子審查的小型網頁 app：選 5、12 或 16 輪，先離開，之後用連結或 email 拿到 Markdown 報告。<br><br>
-      <a href="https://github.com/teddashh/ai-brainstorming/stargazers"><img alt="AI Brainstorming stars" src="https://img.shields.io/github/stars/teddashh/ai-brainstorming?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/ai-brainstorming/stargazers"><img alt="AI Brainstorming stars" src="https://img.shields.io/github/stars/TED-H-com/ai-brainstorming?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Hono</code> <code>React</code> <code>SQLite</code> <code>OpenRouter</code><br><br>
-      <a href="https://teddashh.github.io/ai-brainstorming/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/ai-brainstorming">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/ai-brainstorming/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/ai-brainstorming">原始碼 ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/claude-idea-review-skill/?lang=zh-TW">Claude Idea Review Skill</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/claude-idea-review-skill/?lang=zh-TW">Claude Idea Review Skill</a></strong><br>
       <code>穩定</code>
     </td>
     <td width="68%" valign="top">
       Claude Code skill：在你花時間動手之前，先讓點子經過 5、12 或 16 輪的審查。<br><br>
-      <a href="https://github.com/teddashh/claude-idea-review-skill/stargazers"><img alt="Claude Idea Review Skill stars" src="https://img.shields.io/github/stars/teddashh/claude-idea-review-skill?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/claude-idea-review-skill/stargazers"><img alt="Claude Idea Review Skill stars" src="https://img.shields.io/github/stars/TED-H-com/claude-idea-review-skill?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Claude Code skill</code> <code>Python</code><br><br>
-      <a href="https://teddashh.github.io/claude-idea-review-skill/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/claude-idea-review-skill">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/claude-idea-review-skill/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/claude-idea-review-skill">原始碼 ↗</a>
     </td>
   </tr>
 </table>
@@ -175,14 +175,14 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/TokenMonster/?lang=zh-TW">TokenMonster</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/TokenMonster/?lang=zh-TW">TokenMonster</a></strong><br>
       <code>暫停開發</code>
     </td>
     <td width="68%" valign="top">
       在你自己的電腦上追蹤 Claude Code、Codex、Gemini CLI、Grok Build 的 token 用量，有即時儀表板，陪伴角色會隨真實里程碑成長。<br><br>
-      <a href="https://github.com/teddashh/TokenMonster/stargazers"><img alt="TokenMonster stars" src="https://img.shields.io/github/stars/teddashh/TokenMonster?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/TokenMonster/releases"><img alt="TokenMonster release" src="https://img.shields.io/github/v/release/teddashh/TokenMonster?include_prereleases&amp;style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/TokenMonster/stargazers"><img alt="TokenMonster stars" src="https://img.shields.io/github/stars/TED-H-com/TokenMonster?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/TokenMonster/releases"><img alt="TokenMonster release" src="https://img.shields.io/github/v/release/TED-H-com/TokenMonster?include_prereleases&amp;style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>TypeScript</code> <code>Electron</code> <code>Node.js</code> <code>SQLite</code><br><br>
-      <a href="https://teddashh.github.io/TokenMonster/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/TokenMonster">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/TokenMonster/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/TokenMonster">原始碼 ↗</a>
     </td>
   </tr>
   <tr>
@@ -228,26 +228,26 @@
 <table width="100%">
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/ai-security-scanner/?lang=zh-TW">ai-security-scanner</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/ai-security-scanner/?lang=zh-TW">ai-security-scanner</a></strong><br>
       <code>持續開發</code>
     </td>
     <td width="68%" valign="top">
       桌面 app 與 agent skill：執行上游的開源資安工具，把結果整理成一份標準化報告。<br><br>
-      <a href="https://github.com/teddashh/ai-security-scanner/stargazers"><img alt="ai-security-scanner stars" src="https://img.shields.io/github/stars/teddashh/ai-security-scanner?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/ai-security-scanner/releases/latest"><img alt="ai-security-scanner release" src="https://img.shields.io/github/v/release/teddashh/ai-security-scanner?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/ai-security-scanner/stargazers"><img alt="ai-security-scanner stars" src="https://img.shields.io/github/stars/TED-H-com/ai-security-scanner?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/ai-security-scanner/releases/latest"><img alt="ai-security-scanner release" src="https://img.shields.io/github/v/release/TED-H-com/ai-security-scanner?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>Rust</code> <code>Tauri</code> <code>React</code><br><br>
-      <a href="https://teddashh.github.io/ai-security-scanner/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/ai-security-scanner">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/ai-security-scanner/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/ai-security-scanner">原始碼 ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/AI-Intune/?lang=zh-TW">AI-Intune</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/AI-Intune/?lang=zh-TW">AI-Intune</a></strong><br>
       <code>持續開發</code>
     </td>
     <td width="68%" valign="top">
       以證據為本的控制平面，管理執行 AI agent 與 coding 工具的 Linux 機器。<br><br>
-      <a href="https://github.com/teddashh/AI-Intune/stargazers"><img alt="AI-Intune stars" src="https://img.shields.io/github/stars/teddashh/AI-Intune?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/AI-Intune/stargazers"><img alt="AI-Intune stars" src="https://img.shields.io/github/stars/TED-H-com/AI-Intune?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Go</code> <code>Linux</code><br><br>
-      <a href="https://teddashh.github.io/AI-Intune/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/AI-Intune">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/AI-Intune/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/AI-Intune">原始碼 ↗</a>
     </td>
   </tr>
   <tr>
@@ -269,26 +269,26 @@
 <table width="100%">
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/reset-therapy/?lang=zh-TW">重置 Therapy</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/reset-therapy/?lang=zh-TW">重置 Therapy</a></strong><br>
       <code>小玩具</code>
     </td>
     <td width="68%" valign="top">
       中英雙語的抗倦怠小玩具：看著四個假的 AI 額度面板燒光，再讓黃金龍幫你重置。<br><br>
-      <a href="https://github.com/teddashh/reset-therapy/stargazers"><img alt="Reset Therapy stars" src="https://img.shields.io/github/stars/teddashh/reset-therapy?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/reset-therapy/stargazers"><img alt="Reset Therapy stars" src="https://img.shields.io/github/stars/TED-H-com/reset-therapy?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>HTML</code> <code>JavaScript</code><br><br>
-      <a href="https://teddashh.github.io/reset-therapy/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/reset-therapy">原始碼 ↗</a> · <a href="https://teddashh.github.io/reset-therapy/play/?lang=zh">開始玩 ↗</a>
+      <a href="https://ted-h-com.github.io/reset-therapy/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/reset-therapy">原始碼 ↗</a> · <a href="https://teddashh.github.io/reset-therapy/play/?lang=zh">開始玩 ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/zhan-dou-tuo-luo/?lang=zh-TW">AI 教你打陀螺</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/zhan-dou-tuo-luo/?lang=zh-TW">AI 教你打陀螺</a></strong><br>
       <code>筆記</code>
     </td>
     <td width="68%" valign="top">
       戰鬥陀螺 Beyblade X 中文筆記：為什麼決定勝負的是分數而不是誰轉得最久，以及怎麼配 3v3 牌組。<br><br>
-      <a href="https://github.com/teddashh/zhan-dou-tuo-luo/stargazers"><img alt="AI Beyblade X Notes stars" src="https://img.shields.io/github/stars/teddashh/zhan-dou-tuo-luo?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/zhan-dou-tuo-luo/stargazers"><img alt="AI Beyblade X Notes stars" src="https://img.shields.io/github/stars/TED-H-com/zhan-dou-tuo-luo?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Markdown</code> <code>繁體中文</code><br><br>
-      <a href="https://teddashh.github.io/zhan-dou-tuo-luo/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/zhan-dou-tuo-luo">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/zhan-dou-tuo-luo/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/zhan-dou-tuo-luo">原始碼 ↗</a>
     </td>
   </tr>
   <tr>

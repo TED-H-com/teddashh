@@ -74,74 +74,74 @@
 <table width="100%">
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/multi-ai-chat-desktop/">Multi-AI Chat Desktop</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/multi-ai-chat-desktop/">Multi-AI Chat Desktop</a></strong><br>
       <code>ACTIVE</code>
     </td>
     <td width="68%" valign="top">
       A portable desktop app that drives your logged-in ChatGPT, Claude, Gemini, and Grok side by side through guided workflows. No API keys.<br><br>
-      <a href="https://github.com/teddashh/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat-desktop?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat-desktop?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/stargazers"><img alt="Multi-AI Chat Desktop stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-chat-desktop?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/releases/latest"><img alt="Multi-AI Chat Desktop release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-chat-desktop?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>Tauri 2</code> <code>React</code> <code>TypeScript</code> <code>Rust</code><br><br>
-      <a href="https://teddashh.github.io/multi-ai-chat-desktop/">Project page ↗</a> · <a href="https://github.com/teddashh/multi-ai-chat-desktop">Source ↗</a> · <a href="https://github.com/teddashh/multi-ai-chat-desktop/releases/latest">Download ↗</a>
+      <a href="https://ted-h-com.github.io/multi-ai-chat-desktop/">Project page ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat-desktop">Source ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat-desktop/releases/latest">Download ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/multi-ai-chat/">Multi-AI Chat</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/multi-ai-chat/">Multi-AI Chat</a></strong><br>
       <code>ACTIVE</code>
     </td>
     <td width="68%" valign="top">
       A Chrome side panel that turns the AI tabs you already have open into one multi-model workflow.<br><br>
-      <a href="https://github.com/teddashh/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-chat?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/multi-ai-chat/releases/latest"><img alt="Multi-AI Chat release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-chat?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/multi-ai-chat/stargazers"><img alt="Multi-AI Chat stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-chat?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-chat/releases/latest"><img alt="Multi-AI Chat release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-chat?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>Chrome MV3</code> <code>React</code> <code>TypeScript</code><br><br>
-      <a href="https://teddashh.github.io/multi-ai-chat/">Project page ↗</a> · <a href="https://github.com/teddashh/multi-ai-chat">Source ↗</a>
+      <a href="https://ted-h-com.github.io/multi-ai-chat/">Project page ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-chat">Source ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/multi-ai-terminal/">Multi-AI Terminal</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/multi-ai-terminal/">Multi-AI Terminal</a></strong><br>
       <code>PAUSED</code>
     </td>
     <td width="68%" valign="top">
       A local workbench that runs staged multi-agent coding workflows on the headless runtimes of Claude Code, Codex, Grok, and Antigravity, with gates and a replayable evidence feed.<br><br>
-      <a href="https://github.com/teddashh/multi-ai-terminal/stargazers"><img alt="Multi-AI Terminal stars" src="https://img.shields.io/github/stars/teddashh/multi-ai-terminal?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/multi-ai-terminal/releases/latest"><img alt="Multi-AI Terminal release" src="https://img.shields.io/github/v/release/teddashh/multi-ai-terminal?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/multi-ai-terminal/stargazers"><img alt="Multi-AI Terminal stars" src="https://img.shields.io/github/stars/TED-H-com/multi-ai-terminal?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/multi-ai-terminal/releases/latest"><img alt="Multi-AI Terminal release" src="https://img.shields.io/github/v/release/TED-H-com/multi-ai-terminal?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>TypeScript</code> <code>React</code> <code>Node.js</code> <code>Tauri 2</code><br><br>
-      <a href="https://teddashh.github.io/multi-ai-terminal/">Project page ↗</a> · <a href="https://github.com/teddashh/multi-ai-terminal">Source ↗</a>
+      <a href="https://ted-h-com.github.io/multi-ai-terminal/">Project page ↗</a> · <a href="https://github.com/TED-H-com/multi-ai-terminal">Source ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/AI-Sister/">AI-Sister</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/AI-Sister/">AI-Sister</a></strong><br>
       <code>ACTIVE</code>
     </td>
     <td width="68%" valign="top">
       A local-first desktop companion that remembers what you worked on, stays quiet most of the time, and cites a source for every answer.<br><br>
-      <a href="https://github.com/teddashh/AI-Sister/stargazers"><img alt="AI-Sister stars" src="https://img.shields.io/github/stars/teddashh/AI-Sister?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/AI-Sister/releases"><img alt="AI-Sister release" src="https://img.shields.io/github/v/release/teddashh/AI-Sister?include_prereleases&amp;style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/AI-Sister/stargazers"><img alt="AI-Sister stars" src="https://img.shields.io/github/stars/TED-H-com/AI-Sister?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/AI-Sister/releases"><img alt="AI-Sister release" src="https://img.shields.io/github/v/release/TED-H-com/AI-Sister?include_prereleases&amp;style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>Tauri 2</code> <code>Rust</code> <code>SQLite</code> <code>Windows OCR</code><br><br>
-      <a href="https://teddashh.github.io/AI-Sister/">Project page ↗</a> · <a href="https://github.com/teddashh/AI-Sister">Source ↗</a>
+      <a href="https://ted-h-com.github.io/AI-Sister/">Project page ↗</a> · <a href="https://github.com/TED-H-com/AI-Sister">Source ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/ai-brainstorming/">AI Brainstorming</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/ai-brainstorming/">AI Brainstorming</a></strong><br>
       <code>PAUSED</code>
     </td>
     <td width="68%" valign="top">
       A small web app for idea review: pick 5, 12, or 16 rounds, leave, and come back to a Markdown report by link or email.<br><br>
-      <a href="https://github.com/teddashh/ai-brainstorming/stargazers"><img alt="AI Brainstorming stars" src="https://img.shields.io/github/stars/teddashh/ai-brainstorming?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/ai-brainstorming/stargazers"><img alt="AI Brainstorming stars" src="https://img.shields.io/github/stars/TED-H-com/ai-brainstorming?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Hono</code> <code>React</code> <code>SQLite</code> <code>OpenRouter</code><br><br>
-      <a href="https://teddashh.github.io/ai-brainstorming/">Project page ↗</a> · <a href="https://github.com/teddashh/ai-brainstorming">Source ↗</a>
+      <a href="https://ted-h-com.github.io/ai-brainstorming/">Project page ↗</a> · <a href="https://github.com/TED-H-com/ai-brainstorming">Source ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/claude-idea-review-skill/">Claude Idea Review Skill</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/claude-idea-review-skill/">Claude Idea Review Skill</a></strong><br>
       <code>STABLE</code>
     </td>
     <td width="68%" valign="top">
       A Claude Code skill that puts an idea through a 5, 12, or 16-round review panel before you spend time building it.<br><br>
-      <a href="https://github.com/teddashh/claude-idea-review-skill/stargazers"><img alt="Claude Idea Review Skill stars" src="https://img.shields.io/github/stars/teddashh/claude-idea-review-skill?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/claude-idea-review-skill/stargazers"><img alt="Claude Idea Review Skill stars" src="https://img.shields.io/github/stars/TED-H-com/claude-idea-review-skill?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Claude Code skill</code> <code>Python</code><br><br>
-      <a href="https://teddashh.github.io/claude-idea-review-skill/">Project page ↗</a> · <a href="https://github.com/teddashh/claude-idea-review-skill">Source ↗</a>
+      <a href="https://ted-h-com.github.io/claude-idea-review-skill/">Project page ↗</a> · <a href="https://github.com/TED-H-com/claude-idea-review-skill">Source ↗</a>
     </td>
   </tr>
 </table>
@@ -175,14 +175,14 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/TokenMonster/">TokenMonster</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/TokenMonster/">TokenMonster</a></strong><br>
       <code>PAUSED</code>
     </td>
     <td width="68%" valign="top">
       Tracks Claude Code, Codex, Gemini CLI, and Grok Build token use on your own machine, with a live dashboard and companions that grow with real milestones.<br><br>
-      <a href="https://github.com/teddashh/TokenMonster/stargazers"><img alt="TokenMonster stars" src="https://img.shields.io/github/stars/teddashh/TokenMonster?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/TokenMonster/releases"><img alt="TokenMonster release" src="https://img.shields.io/github/v/release/teddashh/TokenMonster?include_prereleases&amp;style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/TokenMonster/stargazers"><img alt="TokenMonster stars" src="https://img.shields.io/github/stars/TED-H-com/TokenMonster?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/TokenMonster/releases"><img alt="TokenMonster release" src="https://img.shields.io/github/v/release/TED-H-com/TokenMonster?include_prereleases&amp;style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>TypeScript</code> <code>Electron</code> <code>Node.js</code> <code>SQLite</code><br><br>
-      <a href="https://teddashh.github.io/TokenMonster/">Project page ↗</a> · <a href="https://github.com/teddashh/TokenMonster">Source ↗</a>
+      <a href="https://ted-h-com.github.io/TokenMonster/">Project page ↗</a> · <a href="https://github.com/TED-H-com/TokenMonster">Source ↗</a>
     </td>
   </tr>
   <tr>
@@ -228,26 +228,26 @@
 <table width="100%">
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/ai-security-scanner/">ai-security-scanner</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/ai-security-scanner/">ai-security-scanner</a></strong><br>
       <code>ACTIVE</code>
     </td>
     <td width="68%" valign="top">
       A desktop app and agent skills that run upstream open-source security tools and turn their output into one standardized report.<br><br>
-      <a href="https://github.com/teddashh/ai-security-scanner/stargazers"><img alt="ai-security-scanner stars" src="https://img.shields.io/github/stars/teddashh/ai-security-scanner?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/teddashh/ai-security-scanner/releases/latest"><img alt="ai-security-scanner release" src="https://img.shields.io/github/v/release/teddashh/ai-security-scanner?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
+      <a href="https://github.com/TED-H-com/ai-security-scanner/stargazers"><img alt="ai-security-scanner stars" src="https://img.shields.io/github/stars/TED-H-com/ai-security-scanner?style=flat-square&amp;color=111111&amp;label=stars"></a> <a href="https://github.com/TED-H-com/ai-security-scanner/releases/latest"><img alt="ai-security-scanner release" src="https://img.shields.io/github/v/release/TED-H-com/ai-security-scanner?style=flat-square&amp;color=111111&amp;label=release"></a><br><br>
       <code>Rust</code> <code>Tauri</code> <code>React</code><br><br>
-      <a href="https://teddashh.github.io/ai-security-scanner/">Project page ↗</a> · <a href="https://github.com/teddashh/ai-security-scanner">Source ↗</a>
+      <a href="https://ted-h-com.github.io/ai-security-scanner/">Project page ↗</a> · <a href="https://github.com/TED-H-com/ai-security-scanner">Source ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/AI-Intune/">AI-Intune</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/AI-Intune/">AI-Intune</a></strong><br>
       <code>ACTIVE</code>
     </td>
     <td width="68%" valign="top">
       An evidence-first control plane for Linux machines that run AI agents and coding tools.<br><br>
-      <a href="https://github.com/teddashh/AI-Intune/stargazers"><img alt="AI-Intune stars" src="https://img.shields.io/github/stars/teddashh/AI-Intune?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/AI-Intune/stargazers"><img alt="AI-Intune stars" src="https://img.shields.io/github/stars/TED-H-com/AI-Intune?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Go</code> <code>Linux</code><br><br>
-      <a href="https://teddashh.github.io/AI-Intune/">Project page ↗</a> · <a href="https://github.com/teddashh/AI-Intune">Source ↗</a>
+      <a href="https://ted-h-com.github.io/AI-Intune/">Project page ↗</a> · <a href="https://github.com/TED-H-com/AI-Intune">Source ↗</a>
     </td>
   </tr>
   <tr>
@@ -269,26 +269,26 @@
 <table width="100%">
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/reset-therapy/">Reset Therapy</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/reset-therapy/">Reset Therapy</a></strong><br>
       <code>TOY</code>
     </td>
     <td width="68%" valign="top">
       A bilingual anti-burnout toy: watch four fake AI quota panels burn down, then let golden dragons reset them.<br><br>
-      <a href="https://github.com/teddashh/reset-therapy/stargazers"><img alt="Reset Therapy stars" src="https://img.shields.io/github/stars/teddashh/reset-therapy?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/reset-therapy/stargazers"><img alt="Reset Therapy stars" src="https://img.shields.io/github/stars/TED-H-com/reset-therapy?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>HTML</code> <code>JavaScript</code><br><br>
-      <a href="https://teddashh.github.io/reset-therapy/">Project page ↗</a> · <a href="https://github.com/teddashh/reset-therapy">Source ↗</a> · <a href="https://teddashh.github.io/reset-therapy/play/">Play ↗</a>
+      <a href="https://ted-h-com.github.io/reset-therapy/">Project page ↗</a> · <a href="https://github.com/TED-H-com/reset-therapy">Source ↗</a> · <a href="https://teddashh.github.io/reset-therapy/play/">Play ↗</a>
     </td>
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/zhan-dou-tuo-luo/">AI Beyblade X Notes</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/zhan-dou-tuo-luo/">AI Beyblade X Notes</a></strong><br>
       <code>NOTES</code>
     </td>
     <td width="68%" valign="top">
       Chinese-first notes on Beyblade X: why points, not spin time, decide a match, and how to build a 3v3 deck.<br><br>
-      <a href="https://github.com/teddashh/zhan-dou-tuo-luo/stargazers"><img alt="AI Beyblade X Notes stars" src="https://img.shields.io/github/stars/teddashh/zhan-dou-tuo-luo?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/zhan-dou-tuo-luo/stargazers"><img alt="AI Beyblade X Notes stars" src="https://img.shields.io/github/stars/TED-H-com/zhan-dou-tuo-luo?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Markdown</code> <code>繁體中文</code><br><br>
-      <a href="https://teddashh.github.io/zhan-dou-tuo-luo/">Project page ↗</a> · <a href="https://github.com/teddashh/zhan-dou-tuo-luo">Source ↗</a>
+      <a href="https://ted-h-com.github.io/zhan-dou-tuo-luo/">Project page ↗</a> · <a href="https://github.com/TED-H-com/zhan-dou-tuo-luo">Source ↗</a>
     </td>
   </tr>
   <tr>
