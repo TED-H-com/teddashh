@@ -211,14 +211,14 @@
   </tr>
   <tr>
     <td width="32%" valign="top">
-      <strong><a href="https://teddashh.github.io/mcp-memory-server/?lang=zh-TW">MCP Memory Server</a></strong><br>
+      <strong><a href="https://ted-h-com.github.io/mcp-memory-server/?lang=zh-TW">MCP Memory Server</a></strong><br>
       <code>暫停開發</code>
     </td>
     <td width="68%" valign="top">
       給 agent 用的長期記憶 MCP 伺服器：決策、已解決的問題、待回答的問題與知識，都可以檢視。<br><br>
-      <a href="https://github.com/teddashh/mcp-memory-server/stargazers"><img alt="MCP Memory Server stars" src="https://img.shields.io/github/stars/teddashh/mcp-memory-server?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
+      <a href="https://github.com/TED-H-com/mcp-memory-server/stargazers"><img alt="MCP Memory Server stars" src="https://img.shields.io/github/stars/TED-H-com/mcp-memory-server?style=flat-square&amp;color=111111&amp;label=stars"></a><br><br>
       <code>Python</code> <code>FastMCP</code> <code>SQLite</code><br><br>
-      <a href="https://teddashh.github.io/mcp-memory-server/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/teddashh/mcp-memory-server">原始碼 ↗</a>
+      <a href="https://ted-h-com.github.io/mcp-memory-server/?lang=zh-TW">專案介紹 ↗</a> · <a href="https://github.com/TED-H-com/mcp-memory-server">原始碼 ↗</a>
     </td>
   </tr>
 </table>
