@@ -1,55 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Ted Huang: Enterprise IT to AI agent systems</title>
-  <desc id="desc">A precise dark profile banner with a single cyan, blue, violet, magenta, coral, and amber gradient atmosphere.</desc>
+  <desc id="desc">A structured navy, white and flag-red profile banner with technical grid lines, blue circuit traces and restrained green accents. Decorative graphics do not represent live data.</desc>
   <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#262626" stroke-width="1"/>
-    </pattern>
-    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#007cf0"/>
-      <stop offset="0.2" stop-color="#00dfd8"/>
-      <stop offset="0.43" stop-color="#7928ca"/>
-      <stop offset="0.62" stop-color="#ff0080"/>
-      <stop offset="0.8" stop-color="#ff4d4d"/>
-      <stop offset="1" stop-color="#f9cb28"/>
-    </linearGradient>
-    <radialGradient id="blueGlow">
-      <stop offset="0" stop-color="#00dfd8" stop-opacity="0.48"/>
-      <stop offset="1" stop-color="#007cf0" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="pinkGlow">
-      <stop offset="0" stop-color="#ff0080" stop-opacity="0.38"/>
-      <stop offset="1" stop-color="#7928ca" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="amberGlow">
-      <stop offset="0" stop-color="#f9cb28" stop-opacity="0.38"/>
-      <stop offset="1" stop-color="#ff4d4d" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur" x="-40%" y="-80%" width="180%" height="240%">
-      <feGaussianBlur stdDeviation="34"/>
-    </filter>
-    <clipPath id="clip">
-      <rect width="1200" height="320" rx="12"/>
-    </clipPath>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#203953" stroke-width="0.6"/></pattern>
+    <clipPath id="clip"><rect width="1200" height="320" rx="8"/></clipPath>
   </defs>
-
   <g clip-path="url(#clip)">
-    <rect width="1200" height="320" fill="#0a0a0a"/>
-    <rect width="1200" height="320" fill="url(#grid)" opacity="0.8"/>
-
-    <g filter="url(#blur)">
-      <ellipse cx="330" cy="318" rx="250" ry="78" fill="url(#blueGlow)"/>
-      <ellipse cx="670" cy="312" rx="270" ry="82" fill="url(#pinkGlow)"/>
-      <ellipse cx="980" cy="318" rx="230" ry="76" fill="url(#amberGlow)"/>
+    <rect width="1200" height="320" fill="#071426"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <path d="M1030 0H1200V320H880Z" fill="#102744" opacity="0.65"/>
+    <rect x="0" y="0" width="8" height="320" fill="#b31942"/>
+    <path d="M72 40h24M72 40v16M1160 280h-24M1160 280v-16" fill="none" stroke="#58a6ff" stroke-width="2"/>
+    <rect x="72" y="57" width="7" height="7" fill="#39d353"/>
+    <text x="90" y="65" fill="#a6b8ce" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="1.6">SYSTEMS / AI</text>
+    <text x="72" y="162" fill="#ffffff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Ted Huang<tspan fill="#b31942">.</tspan></text>
+    <text x="73" y="201" fill="#a6b8ce" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="2">OPERATE / BUILD / GOVERN</text>
+    <g fill="none" stroke="#203953" stroke-width="1.5">
+      <path d="M780 86h118l38 38h160M740 160h96l40 40h220M800 246h140l42-42h114"/>
+      <rect x="904" y="136" width="64" height="48" rx="4"/>
+      <path d="M920 150h32M920 160h22M920 170h28" stroke="#58a6ff"/>
     </g>
-
-    <rect x="84" y="53" width="154" height="28" rx="14" fill="#171717" stroke="#333333"/>
-    <text x="161" y="72" text-anchor="middle" fill="#a1a1a1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="0.8">SYSTEMS / AI</text>
-
-    <text x="84" y="166" fill="#fafafa" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="52" font-weight="600" letter-spacing="-2.2">Ted Huang.</text>
-    <text x="84" y="211" fill="#a1a1a1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" letter-spacing="0.8">OPERATE / BUILD / GOVERN</text>
-
-    <rect x="0" y="310" width="1200" height="10" fill="url(#spectrum)"/>
+    <g fill="#071426" stroke="#58a6ff" stroke-width="2"><rect x="774" y="80" width="12" height="12"/><rect x="734" y="154" width="12" height="12"/><rect x="794" y="240" width="12" height="12"/></g>
+    <g fill="#39d353"><rect x="1090" y="118" width="10" height="10"/><rect x="1090" y="194" width="10" height="10"/></g>
+    <path d="M72 260h132" stroke="#58a6ff" stroke-width="2"/>
+    <path d="M214 260h36" stroke="#39d353" stroke-width="2"/>
+    <rect x="0" y="312" width="1200" height="8" fill="#102744"/>
+    <rect x="0" y="312" width="400" height="8" fill="#b31942"/>
+    <rect x="400" y="312" width="400" height="8" fill="#ffffff"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="319" rx="11.5" fill="none" stroke="#2a2a2a"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="7.5" fill="none" stroke="#203953"/>
 </svg>
