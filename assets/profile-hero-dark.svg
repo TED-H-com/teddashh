@@ -1,32 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Ted Huang: Enterprise IT to AI agent systems</title>
-  <desc id="desc">A structured navy, white and flag-red profile banner with technical grid lines, blue circuit traces and restrained green accents. Decorative graphics do not represent live data.</desc>
-  <defs>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#203953" stroke-width="0.6"/></pattern>
-    <clipPath id="clip"><rect width="1200" height="320" rx="8"/></clipPath>
-  </defs>
-  <g clip-path="url(#clip)">
-    <rect width="1200" height="320" fill="#071426"/>
-    <rect width="1200" height="320" fill="url(#grid)"/>
-    <path d="M1030 0H1200V320H880Z" fill="#102744" opacity="0.65"/>
-    <rect x="0" y="0" width="8" height="320" fill="#b31942"/>
-    <path d="M72 40h24M72 40v16M1160 280h-24M1160 280v-16" fill="none" stroke="#58a6ff" stroke-width="2"/>
-    <rect x="72" y="57" width="7" height="7" fill="#39d353"/>
-    <text x="90" y="65" fill="#a6b8ce" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="1.6">SYSTEMS / AI</text>
-    <text x="72" y="162" fill="#ffffff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Ted Huang<tspan fill="#b31942">.</tspan></text>
-    <text x="73" y="201" fill="#a6b8ce" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="2">OPERATE / BUILD / GOVERN</text>
-    <g fill="none" stroke="#203953" stroke-width="1.5">
-      <path d="M780 86h118l38 38h160M740 160h96l40 40h220M800 246h140l42-42h114"/>
-      <rect x="904" y="136" width="64" height="48" rx="4"/>
-      <path d="M920 150h32M920 160h22M920 170h28" stroke="#58a6ff"/>
-    </g>
-    <g fill="#071426" stroke="#58a6ff" stroke-width="2"><rect x="774" y="80" width="12" height="12"/><rect x="734" y="154" width="12" height="12"/><rect x="794" y="240" width="12" height="12"/></g>
-    <g fill="#39d353"><rect x="1090" y="118" width="10" height="10"/><rect x="1090" y="194" width="10" height="10"/></g>
-    <path d="M72 260h132" stroke="#58a6ff" stroke-width="2"/>
-    <path d="M214 260h36" stroke="#39d353" stroke-width="2"/>
-    <rect x="0" y="312" width="1200" height="8" fill="#102744"/>
-    <rect x="0" y="312" width="400" height="8" fill="#b31942"/>
-    <rect x="400" y="312" width="400" height="8" fill="#ffffff"/>
-  </g>
-  <rect x="0.5" y="0.5" width="1199" height="319" rx="7.5" fill="none" stroke="#203953"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">Ted Huang: Enterprise IT to AI agent systems</title>
+<desc id="desc">A green geographic silhouette of Taiwan, the American flag, and a four-stage agent workflow: input, decision, execution, feedback. A slow signal follows the workflow where animation is supported; the static diagram remains complete.</desc>
+<!-- Taiwan main-island geometry: Natural Earth 1:50m, public domain; via Can-Sahin/geojson-regions/countries/50m/TWN.geojson. No external resources or scripts. -->
+<defs>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#29405C" stroke-width="0.5"/></pattern>
+ <clipPath id="frame"><rect width="1200" height="400" rx="10"/></clipPath>
+ <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#58A6FF" stroke-width="1.2"/></marker>
+</defs>
+<style>
+ .packet { display: none; }
+ @media (prefers-reduced-motion: no-preference) { .packet { display: inline; } }
+</style>
+<g clip-path="url(#frame)">
+ <rect width="1200" height="400" fill="#071426"/>
+ <rect width="1200" height="400" fill="url(#grid)" opacity="0.55"/>
+ <rect width="1200" height="6" fill="#B22234"/>
+ <rect x="0" y="388" width="1200" height="12" fill="#0A2342"/>
+ <rect x="0" y="388" width="400" height="12" fill="#B22234"/>
+ <rect x="400" y="388" width="400" height="12" fill="#FFFFFF"/>
+<g aria-label="United States flag"><rect x="742" y="32" width="410" height="215.78947368421055" fill="#FFFFFF"/>
+<rect x="742" y="32.00" width="410" height="16.60" fill="#B22234"/>
+<rect x="742" y="65.20" width="410" height="16.60" fill="#B22234"/>
+<rect x="742" y="98.40" width="410" height="16.60" fill="#B22234"/>
+<rect x="742" y="131.60" width="410" height="16.60" fill="#B22234"/>
+<rect x="742" y="164.79" width="410" height="16.60" fill="#B22234"/>
+<rect x="742" y="197.99" width="410" height="16.60" fill="#B22234"/>
+<rect x="742" y="231.19" width="410" height="16.60" fill="#B22234"/>
+<rect x="742" y="32" width="164.0" height="116.19433198380568" fill="#0A2342"/>
+<polygon points="755.67,38.64 756.78,42.08 760.40,42.08 757.48,44.21 758.59,47.65 755.67,45.52 752.74,47.65 753.86,44.21 750.93,42.08 754.55,42.08" fill="#FFFFFF"/>
+<polygon points="783.00,38.64 784.12,42.08 787.74,42.08 784.81,44.21 785.93,47.65 783.00,45.52 780.07,47.65 781.19,44.21 778.26,42.08 781.88,42.08" fill="#FFFFFF"/>
+<polygon points="810.33,38.64 811.45,42.08 815.07,42.08 812.14,44.21 813.26,47.65 810.33,45.52 807.41,47.65 808.52,44.21 805.60,42.08 809.22,42.08" fill="#FFFFFF"/>
+<polygon points="837.67,38.64 838.78,42.08 842.40,42.08 839.48,44.21 840.59,47.65 837.67,45.52 834.74,47.65 835.86,44.21 832.93,42.08 836.55,42.08" fill="#FFFFFF"/>
+<polygon points="865.00,38.64 866.12,42.08 869.74,42.08 866.81,44.21 867.93,47.65 865.00,45.52 862.07,47.65 863.19,44.21 860.26,42.08 863.88,42.08" fill="#FFFFFF"/>
+<polygon points="892.33,38.64 893.45,42.08 897.07,42.08 894.14,44.21 895.26,47.65 892.33,45.52 889.41,47.65 890.52,44.21 887.60,42.08 891.22,42.08" fill="#FFFFFF"/>
+<polygon points="769.33,50.26 770.45,53.70 774.07,53.70 771.14,55.83 772.26,59.27 769.33,57.14 766.41,59.27 767.52,55.83 764.60,53.70 768.22,53.70" fill="#FFFFFF"/>
+<polygon points="796.67,50.26 797.78,53.70 801.40,53.70 798.48,55.83 799.59,59.27 796.67,57.14 793.74,59.27 794.86,55.83 791.93,53.70 795.55,53.70" fill="#FFFFFF"/>
+<polygon points="824.00,50.26 825.12,53.70 828.74,53.70 825.81,55.83 826.93,59.27 824.00,57.14 821.07,59.27 822.19,55.83 819.26,53.70 822.88,53.70" fill="#FFFFFF"/>
+<polygon points="851.33,50.26 852.45,53.70 856.07,53.70 853.14,55.83 854.26,59.27 851.33,57.14 848.41,59.27 849.52,55.83 846.60,53.70 850.22,53.70" fill="#FFFFFF"/>
+<polygon points="878.67,50.26 879.78,53.70 883.40,53.70 880.48,55.83 881.59,59.27 878.67,57.14 875.74,59.27 876.86,55.83 873.93,53.70 877.55,53.70" fill="#FFFFFF"/>
+<polygon points="755.67,61.88 756.78,65.32 760.40,65.32 757.48,67.45 758.59,70.89 755.67,68.76 752.74,70.89 753.86,67.45 750.93,65.32 754.55,65.32" fill="#FFFFFF"/>
+<polygon points="783.00,61.88 784.12,65.32 787.74,65.32 784.81,67.45 785.93,70.89 783.00,68.76 780.07,70.89 781.19,67.45 778.26,65.32 781.88,65.32" fill="#FFFFFF"/>
+<polygon points="810.33,61.88 811.45,65.32 815.07,65.32 812.14,67.45 813.26,70.89 810.33,68.76 807.41,70.89 808.52,67.45 805.60,65.32 809.22,65.32" fill="#FFFFFF"/>
+<polygon points="837.67,61.88 838.78,65.32 842.40,65.32 839.48,67.45 840.59,70.89 837.67,68.76 834.74,70.89 835.86,67.45 832.93,65.32 836.55,65.32" fill="#FFFFFF"/>
+<polygon points="865.00,61.88 866.12,65.32 869.74,65.32 866.81,67.45 867.93,70.89 865.00,68.76 862.07,70.89 863.19,67.45 860.26,65.32 863.88,65.32" fill="#FFFFFF"/>
+<polygon points="892.33,61.88 893.45,65.32 897.07,65.32 894.14,67.45 895.26,70.89 892.33,68.76 889.41,70.89 890.52,67.45 887.60,65.32 891.22,65.32" fill="#FFFFFF"/>
+<polygon points="769.33,73.50 770.45,76.94 774.07,76.94 771.14,79.07 772.26,82.51 769.33,80.38 766.41,82.51 767.52,79.07 764.60,76.94 768.22,76.94" fill="#FFFFFF"/>
+<polygon points="796.67,73.50 797.78,76.94 801.40,76.94 798.48,79.07 799.59,82.51 796.67,80.38 793.74,82.51 794.86,79.07 791.93,76.94 795.55,76.94" fill="#FFFFFF"/>
+<polygon points="824.00,73.50 825.12,76.94 828.74,76.94 825.81,79.07 826.93,82.51 824.00,80.38 821.07,82.51 822.19,79.07 819.26,76.94 822.88,76.94" fill="#FFFFFF"/>
+<polygon points="851.33,73.50 852.45,76.94 856.07,76.94 853.14,79.07 854.26,82.51 851.33,80.38 848.41,82.51 849.52,79.07 846.60,76.94 850.22,76.94" fill="#FFFFFF"/>
+<polygon points="878.67,73.50 879.78,76.94 883.40,76.94 880.48,79.07 881.59,82.51 878.67,80.38 875.74,82.51 876.86,79.07 873.93,76.94 877.55,76.94" fill="#FFFFFF"/>
+<polygon points="755.67,85.12 756.78,88.56 760.40,88.56 757.48,90.68 758.59,94.13 755.67,92.00 752.74,94.13 753.86,90.68 750.93,88.56 754.55,88.56" fill="#FFFFFF"/>
+<polygon points="783.00,85.12 784.12,88.56 787.74,88.56 784.81,90.68 785.93,94.13 783.00,92.00 780.07,94.13 781.19,90.68 778.26,88.56 781.88,88.56" fill="#FFFFFF"/>
+<polygon points="810.33,85.12 811.45,88.56 815.07,88.56 812.14,90.68 813.26,94.13 810.33,92.00 807.41,94.13 808.52,90.68 805.60,88.56 809.22,88.56" fill="#FFFFFF"/>
+<polygon points="837.67,85.12 838.78,88.56 842.40,88.56 839.48,90.68 840.59,94.13 837.67,92.00 834.74,94.13 835.86,90.68 832.93,88.56 836.55,88.56" fill="#FFFFFF"/>
+<polygon points="865.00,85.12 866.12,88.56 869.74,88.56 866.81,90.68 867.93,94.13 865.00,92.00 862.07,94.13 863.19,90.68 860.26,88.56 863.88,88.56" fill="#FFFFFF"/>
+<polygon points="892.33,85.12 893.45,88.56 897.07,88.56 894.14,90.68 895.26,94.13 892.33,92.00 889.41,94.13 890.52,90.68 887.60,88.56 891.22,88.56" fill="#FFFFFF"/>
+<polygon points="769.33,96.74 770.45,100.18 774.07,100.18 771.14,102.30 772.26,105.75 769.33,103.62 766.41,105.75 767.52,102.30 764.60,100.18 768.22,100.18" fill="#FFFFFF"/>
+<polygon points="796.67,96.74 797.78,100.18 801.40,100.18 798.48,102.30 799.59,105.75 796.67,103.62 793.74,105.75 794.86,102.30 791.93,100.18 795.55,100.18" fill="#FFFFFF"/>
+<polygon points="824.00,96.74 825.12,100.18 828.74,100.18 825.81,102.30 826.93,105.75 824.00,103.62 821.07,105.75 822.19,102.30 819.26,100.18 822.88,100.18" fill="#FFFFFF"/>
+<polygon points="851.33,96.74 852.45,100.18 856.07,100.18 853.14,102.30 854.26,105.75 851.33,103.62 848.41,105.75 849.52,102.30 846.60,100.18 850.22,100.18" fill="#FFFFFF"/>
+<polygon points="878.67,96.74 879.78,100.18 883.40,100.18 880.48,102.30 881.59,105.75 878.67,103.62 875.74,105.75 876.86,102.30 873.93,100.18 877.55,100.18" fill="#FFFFFF"/>
+<polygon points="755.67,108.36 756.78,111.80 760.40,111.80 757.48,113.92 758.59,117.36 755.67,115.24 752.74,117.36 753.86,113.92 750.93,111.80 754.55,111.80" fill="#FFFFFF"/>
+<polygon points="783.00,108.36 784.12,111.80 787.74,111.80 784.81,113.92 785.93,117.36 783.00,115.24 780.07,117.36 781.19,113.92 778.26,111.80 781.88,111.80" fill="#FFFFFF"/>
+<polygon points="810.33,108.36 811.45,111.80 815.07,111.80 812.14,113.92 813.26,117.36 810.33,115.24 807.41,117.36 808.52,113.92 805.60,111.80 809.22,111.80" fill="#FFFFFF"/>
+<polygon points="837.67,108.36 838.78,111.80 842.40,111.80 839.48,113.92 840.59,117.36 837.67,115.24 834.74,117.36 835.86,113.92 832.93,111.80 836.55,111.80" fill="#FFFFFF"/>
+<polygon points="865.00,108.36 866.12,111.80 869.74,111.80 866.81,113.92 867.93,117.36 865.00,115.24 862.07,117.36 863.19,113.92 860.26,111.80 863.88,111.80" fill="#FFFFFF"/>
+<polygon points="892.33,108.36 893.45,111.80 897.07,111.80 894.14,113.92 895.26,117.36 892.33,115.24 889.41,117.36 890.52,113.92 887.60,111.80 891.22,111.80" fill="#FFFFFF"/>
+<polygon points="769.33,119.98 770.45,123.42 774.07,123.42 771.14,125.54 772.26,128.98 769.33,126.86 766.41,128.98 767.52,125.54 764.60,123.42 768.22,123.42" fill="#FFFFFF"/>
+<polygon points="796.67,119.98 797.78,123.42 801.40,123.42 798.48,125.54 799.59,128.98 796.67,126.86 793.74,128.98 794.86,125.54 791.93,123.42 795.55,123.42" fill="#FFFFFF"/>
+<polygon points="824.00,119.98 825.12,123.42 828.74,123.42 825.81,125.54 826.93,128.98 824.00,126.86 821.07,128.98 822.19,125.54 819.26,123.42 822.88,123.42" fill="#FFFFFF"/>
+<polygon points="851.33,119.98 852.45,123.42 856.07,123.42 853.14,125.54 854.26,128.98 851.33,126.86 848.41,128.98 849.52,125.54 846.60,123.42 850.22,123.42" fill="#FFFFFF"/>
+<polygon points="878.67,119.98 879.78,123.42 883.40,123.42 880.48,125.54 881.59,128.98 878.67,126.86 875.74,128.98 876.86,125.54 873.93,123.42 877.55,123.42" fill="#FFFFFF"/>
+<polygon points="755.67,131.60 756.78,135.04 760.40,135.04 757.48,137.16 758.59,140.60 755.67,138.48 752.74,140.60 753.86,137.16 750.93,135.04 754.55,135.04" fill="#FFFFFF"/>
+<polygon points="783.00,131.60 784.12,135.04 787.74,135.04 784.81,137.16 785.93,140.60 783.00,138.48 780.07,140.60 781.19,137.16 778.26,135.04 781.88,135.04" fill="#FFFFFF"/>
+<polygon points="810.33,131.60 811.45,135.04 815.07,135.04 812.14,137.16 813.26,140.60 810.33,138.48 807.41,140.60 808.52,137.16 805.60,135.04 809.22,135.04" fill="#FFFFFF"/>
+<polygon points="837.67,131.60 838.78,135.04 842.40,135.04 839.48,137.16 840.59,140.60 837.67,138.48 834.74,140.60 835.86,137.16 832.93,135.04 836.55,135.04" fill="#FFFFFF"/>
+<polygon points="865.00,131.60 866.12,135.04 869.74,135.04 866.81,137.16 867.93,140.60 865.00,138.48 862.07,140.60 863.19,137.16 860.26,135.04 863.88,135.04" fill="#FFFFFF"/>
+<polygon points="892.33,131.60 893.45,135.04 897.07,135.04 894.14,137.16 895.26,140.60 892.33,138.48 889.41,140.60 890.52,137.16 887.60,135.04 891.22,135.04" fill="#FFFFFF"/>
+</g><text x="52" y="65" fill="#A6B8CE" font-family="monospace" font-size="13" letter-spacing="2">SYSTEMS / AI</text>
+<text x="48" y="150" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="-2">Ted Huang.</text>
+<text x="52" y="192" fill="#A6B8CE" font-family="monospace" font-size="15" letter-spacing="2">OPERATE / BUILD / GOVERN</text>
+<text x="52" y="239" fill="#39D353" font-family="monospace" font-size="13" letter-spacing="1.2">TAIWAN</text><text x="125" y="239" fill="#A6B8CE" font-family="monospace" font-size="13" letter-spacing="1.2">/ UNITED STATES</text>
+<path d="M617.58,195.41L614.43,201.92L611.91,208.80L610.90,215.29L610.95,221.98L610.23,228.03L608.99,234.00L604.06,232.28L601.38,228.00L600.77,220.98L597.19,212.49L595.85,210.06L590.70,205.32L586.01,202.95L582.39,199.45L582.86,199.74L580.18,195.02L578.15,190.00L573.94,175.74L572.50,172.29L570.56,169.15L570.00,166.04L570.66,162.58L572.48,157.41L573.58,152.20L572.69,145.13L573.03,138.12L574.40,135.00L598.31,92.30L604.80,83.22L608.79,78.76L612.13,73.73L615.30,67.36L619.19,61.54L621.98,59.75L635.70,54.53L639.97,49.55L643.40,48.00L647.29,48.09L649.80,50.47L652.04,53.29L654.39,54.81L660.46,57.57L663.12,60.23L664.33,64.82L660.64,69.18L658.80,73.10L658.46,77.44L659.12,83.31L659.20,89.20L654.58,103.03L649.62,111.64L648.28,115.93L646.77,126.58L643.86,137.26L641.37,150.82L637.32,164.77L635.03,170.61L632.16,176.20L625.32,186.76L617.58,195.41Z" fill="#39D353" fill-opacity="0.18" stroke="#39D353" stroke-width="2.5"/>
+<g fill="none" stroke="#58A6FF" stroke-width="1.6">
+<path d="M118 310H410" marker-end="url(#arrow)"/>
+<path d="M448 310H740" marker-end="url(#arrow)"/>
+<path d="M778 310H1070" marker-end="url(#arrow)"/>
+<path d="M1090 328V367H100V330" marker-end="url(#arrow)" opacity="0.6"/></g>
+<rect x="84" y="294" width="32" height="32" rx="4" fill="#071426" stroke="#58A6FF" stroke-width="1.5"/>
+<text x="100" y="315" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">01</text>
+<text x="100" y="281" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="12" letter-spacing="0.8">INPUT</text>
+<rect x="414" y="294" width="32" height="32" rx="4" fill="#071426" stroke="#58A6FF" stroke-width="1.5"/>
+<text x="430" y="315" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">02</text>
+<text x="430" y="281" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="12" letter-spacing="0.8">DECISION</text>
+<rect x="744" y="294" width="32" height="32" rx="4" fill="#071426" stroke="#58A6FF" stroke-width="1.5"/>
+<text x="760" y="315" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">03</text>
+<text x="760" y="281" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="12" letter-spacing="0.8">EXECUTION</text>
+<rect x="1074" y="294" width="32" height="32" rx="4" fill="#071426" stroke="#39D353" stroke-width="1.5"/>
+<text x="1090" y="315" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">04</text>
+<text x="1090" y="281" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="12" letter-spacing="0.8">FEEDBACK</text>
+<circle class="packet" cx="0" cy="0" r="4" fill="#39D353" stroke="#071426" stroke-width="1.5" opacity="0">
+ <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.98;1" dur="16s" repeatCount="indefinite"/>
+ <animateMotion dur="16s" repeatCount="indefinite" path="M100 310H1090V367H100Z" calcMode="linear" keyPoints="0;0;0.157593;0.157593;0.315186;0.315186;0.472779;0.472779;1;1" keyTimes="0;0.08;0.22;0.30;0.44;0.52;0.66;0.74;0.94;1"/>
+</circle>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="399" rx="9.5" fill="none" stroke="#29405C"/>
 </svg>
