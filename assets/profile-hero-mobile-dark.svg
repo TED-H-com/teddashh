@@ -79,7 +79,7 @@
 <polygon points="432.00,83.01 432.57,84.77 434.43,84.77 432.93,85.86 433.50,87.63 432.00,86.54 430.50,87.63 431.07,85.86 429.57,84.77 431.43,84.77" fill="#FFFFFF"/>
 </g><text x="36" y="61" fill="#A6B8CE" font-family="monospace" font-size="12" letter-spacing="1.5">SYSTEMS / AI</text>
 <text x="34" y="134" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">Ted Huang.</text>
-<text x="36" y="172" fill="#A6B8CE" font-family="monospace" font-size="13">ENTERPRISE IT → AI AGENTS</text>
+<text x="36" y="172" fill="#A6B8CE" font-family="monospace" font-size="15">ENTERPRISE IT → AI AGENTS</text>
 <path d="M478.86,252.22L477.08,255.89L475.66,259.77L475.09,263.44L475.12,267.22L474.71,270.63L474.01,274.00L471.23,273.03L469.72,270.61L469.37,266.65L467.35,261.86L466.59,260.49L463.68,257.81L461.04,256.47L458.99,254.50L459.26,254.66L457.75,252.00L456.60,249.16L454.23,241.11L453.41,239.17L452.31,237.39L452.00,235.63L452.38,233.68L453.40,230.77L454.02,227.82L453.52,223.83L453.71,219.87L454.48,218.11L467.98,194.01L471.65,188.88L473.90,186.36L475.78,183.52L477.57,179.93L479.77,176.65L481.34,175.64L489.09,172.69L491.50,169.87L493.44,169.00L495.63,169.05L497.05,170.39L498.31,171.99L499.64,172.85L503.07,174.40L504.57,175.91L505.25,178.50L503.17,180.96L502.13,183.17L501.94,185.62L502.31,188.93L502.36,192.26L499.75,200.06L496.94,204.92L496.19,207.35L495.34,213.36L493.69,219.39L492.29,227.04L490.01,234.92L488.71,238.22L487.09,241.37L483.23,247.33L478.86,252.22Z" fill="#39D353" fill-opacity="0.18" stroke="#39D353" stroke-width="2"/>
 <text x="36" y="220" fill="#39D353" font-family="monospace" font-size="13" letter-spacing="1">TAIWAN</text><text x="105" y="220" fill="#A6B8CE" font-family="monospace" font-size="13" letter-spacing="1">/ UNITED STATES</text>
 <path d="M36 242H338" stroke="#58A6FF" stroke-width="1.5"/>
@@ -90,16 +90,16 @@
 <path d="M532 348V387H64V350" marker-end="url(#arrow)" opacity="0.6"/></g>
 <rect x="48" y="314" width="32" height="32" rx="4" fill="#071426" stroke="#58A6FF" stroke-width="1.5"/>
 <text x="64" y="335" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">01</text>
-<text x="64" y="301" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="11" letter-spacing="0.8">INPUT</text>
+<text x="64" y="301" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="14" letter-spacing="0.8">INPUT</text>
 <rect x="204" y="314" width="32" height="32" rx="4" fill="#071426" stroke="#58A6FF" stroke-width="1.5"/>
 <text x="220" y="335" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">02</text>
-<text x="220" y="301" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="11" letter-spacing="0.8">DECISION</text>
+<text x="220" y="301" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="14" letter-spacing="0.8">DECISION</text>
 <rect x="360" y="314" width="32" height="32" rx="4" fill="#071426" stroke="#58A6FF" stroke-width="1.5"/>
 <text x="376" y="335" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">03</text>
-<text x="376" y="301" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="11" letter-spacing="0.8">EXECUTION</text>
+<text x="376" y="301" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="14" letter-spacing="0.8">EXECUTION</text>
 <rect x="516" y="314" width="32" height="32" rx="4" fill="#071426" stroke="#39D353" stroke-width="1.5"/>
 <text x="532" y="335" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="13">04</text>
-<text x="532" y="301" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="11" letter-spacing="0.8">FEEDBACK</text>
+<text x="532" y="301" text-anchor="middle" fill="#A6B8CE" font-family="monospace" font-size="14" letter-spacing="0.8">FEEDBACK</text>
 <circle class="packet" cx="0" cy="0" r="4" fill="#39D353" stroke="#071426" stroke-width="1.5" opacity="0">
  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.98;1" dur="16s" repeatCount="indefinite"/>
  <animateMotion dur="16s" repeatCount="indefinite" path="M64 330H532V387H64Z" calcMode="linear" keyPoints="0;0;0.148571;0.148571;0.297143;0.297143;0.445714;0.445714;1;1" keyTimes="0;0.08;0.22;0.30;0.44;0.52;0.66;0.74;0.94;1"/>
