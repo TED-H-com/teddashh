@@ -60,3 +60,12 @@ Deploying the dashboard requires a few standard steps to ensure optimized builds
 
 4. **Serve**:
    Deploy the contents of the `build/` directory to your CDN or static file hosting service. Ensure your server is configured to handle client-side routing (e.g., rewriting all unmatched routes to `index.html`).
+
+## 6. Performance Optimization and Benchmarks
+
+To ensure the dashboard remains highly responsive, we continuously profile bottlenecks and enforce strict performance criteria.
+
+- **Latency Goals**: The dashboard metrics API must respond within 50ms under normal load. We monitor round-trip times and optimize database queries to achieve this.
+- **Redundant Operations**: We strive to eliminate redundant data processing. Data transformations and filtering should happen as early in the pipeline as possible, avoiding repeated iterations over large datasets during the render cycle.
+- **Memory Allocation Profiling**: We regularly profile memory allocations to detect leaks and ensure minimal overhead. Heavy computations should allocate minimally to reduce garbage collection pauses that could cause UI stuttering.
+- **Benchmark Tests**: Automated performance benchmarks are integrated into our test suite. These simulate large datasets and measure both execution time and memory consumption against established thresholds.
