@@ -82,3 +82,31 @@ test('Data Transformation Utilities', async (t) => {
         assert.strictEqual(formatCurrency('abc', 'USD', 'en-US'), '$0.00');
     });
 });
+
+test('Performance Benchmarks', async (t) => {
+    await t.test('latency: dashboard metrics API should respond within 50ms', { skip: 'Product code not yet implemented' }, async () => {
+        const { fetchMetrics } = require('../src/dashboard/metrics');
+        const start = performance.now();
+        await fetchMetrics();
+        const end = performance.now();
+        assert.ok((end - start) < 50, 'Latency exceeded 50ms');
+    });
+
+    await t.test('optimization: data transformation should not perform redundant operations', { skip: 'Product code not yet implemented' }, () => {
+        const { formatChartData } = require('../src/utils/formatters');
+        const raw = Array.from({ length: 10000 }, (_, i) => ({ id: i, val: i }));
+        const start = performance.now();
+        formatChartData(raw, 'id', 'val');
+        const end = performance.now();
+        assert.ok((end - start) < 10, 'Formatting large dataset is too slow, possible redundancy');
+    });
+
+    await t.test('memory: calculateTotal should allocate minimal memory', { skip: 'Product code not yet implemented' }, () => {
+        const { calculateTotal } = require('../src/dashboard/metrics');
+        const data = Array.from({ length: 50000 }, () => ({ revenue: 100 }));
+        const memBefore = process.memoryUsage().heapUsed;
+        calculateTotal(data, 'revenue');
+        const memAfter = process.memoryUsage().heapUsed;
+        assert.ok((memAfter - memBefore) < 1024 * 1024, 'Memory allocation exceeded 1MB during calculateTotal');
+    });
+});
