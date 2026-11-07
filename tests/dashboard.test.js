@@ -21,6 +21,18 @@ test('Dashboard Summary Metrics', async (t) => {
         assert.strictEqual(calculateTotal([], 'revenue'), 0);
     });
 
+    await t.test('calculateTotal should handle negative numbers', { skip: 'Product code not yet implemented' }, () => {
+        const { calculateTotal } = require('../src/dashboard/metrics');
+        const data = [{ revenue: 100 }, { revenue: -50 }, { revenue: 20 }];
+        assert.strictEqual(calculateTotal(data, 'revenue'), 70);
+    });
+
+    await t.test('calculateTotal should ignore objects with missing keys', { skip: 'Product code not yet implemented' }, () => {
+        const { calculateTotal } = require('../src/dashboard/metrics');
+        const data = [{ revenue: 100 }, { cost: 50 }, { revenue: 20 }];
+        assert.strictEqual(calculateTotal(data, 'revenue'), 120);
+    });
+
     await t.test('calculateGrowth should calculate correct percentage', { skip: 'Product code not yet implemented' }, () => {
         const { calculateGrowth } = require('../src/dashboard/metrics');
         assert.strictEqual(calculateGrowth(150, 100), 50);
@@ -31,6 +43,12 @@ test('Dashboard Summary Metrics', async (t) => {
         const { calculateGrowth } = require('../src/dashboard/metrics');
         assert.strictEqual(calculateGrowth(50, 0), 100);
         assert.strictEqual(calculateGrowth(0, 0), 0);
+    });
+
+    await t.test('calculateGrowth should handle negative values', { skip: 'Product code not yet implemented' }, () => {
+        const { calculateGrowth } = require('../src/dashboard/metrics');
+        assert.strictEqual(calculateGrowth(-50, 100), -150);
+        assert.strictEqual(calculateGrowth(-50, -100), 50);
     });
 });
 
