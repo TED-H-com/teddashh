@@ -52,4 +52,31 @@ test('Integration: Project and Asset Links', async (t) => {
             assert.ok(content.includes('../README.md') || content.includes('../README.zh-TW.md'), `File ${file} is missing back-links`);
         }
     });
+
+    await t.test('documentation files should exist', () => {
+        assert.ok(fs.existsSync(path.join(__dirname, '../docs/api-reference.md')), 'docs/api-reference.md is missing');
+        assert.ok(fs.existsSync(path.join(__dirname, '../docs/dashboard-telemetry.md')), 'docs/dashboard-telemetry.md is missing');
+    });
+
+    await t.test('projects listed in projects/README.md should have corresponding markdown files (if implemented)', () => {
+        const content = fs.readFileSync(path.join(__dirname, '../projects/README.md'), 'utf-8');
+        const projectLinkRegex = /\[Source ↗\]\(https:\/\/github\.com\/[^/]+\/([^)]+)\)/g;
+        let match;
+        const linkedProjects = new Set();
+        while ((match = projectLinkRegex.exec(content)) !== null) {
+            linkedProjects.add(match[1].toLowerCase());
+        }
+
+        const projectsDir = path.join(__dirname, '../projects');
+        const existingFiles = fs.readdirSync(projectsDir).filter(f => f.endsWith('.md') && f !== 'README.md');
+        const existingNames = new Set(existingFiles.map(f => f.toLowerCase().replace('.md', '')));
+
+        // Verify that every markdown file (except README) actually corresponds to a valid project link
+        assert.ok(existingFiles.length > 0, 'Should have project files');
+
+        for (const file of existingFiles) {
+             const projectName = file.toLowerCase().replace('.md', '');
+             assert.ok(linkedProjects.has(projectName), `File ${file} does not correspond to a known project`);
+        }
+    });
 });
