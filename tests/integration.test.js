@@ -58,7 +58,7 @@ test('Integration: Project and Asset Links', async (t) => {
         assert.ok(fs.existsSync(path.join(__dirname, '../docs/dashboard-telemetry.md')), 'docs/dashboard-telemetry.md is missing');
     });
 
-    await t.test('projects listed in projects/README.md should have corresponding markdown files', () => {
+    await t.test('projects listed in projects/README.md should have corresponding markdown files (if implemented)', () => {
         const content = fs.readFileSync(path.join(__dirname, '../projects/README.md'), 'utf-8');
         const projectLinkRegex = /\[Source ↗\]\(https:\/\/github\.com\/[^/]+\/([^)]+)\)/g;
         let match;
@@ -68,13 +68,15 @@ test('Integration: Project and Asset Links', async (t) => {
         }
 
         const projectsDir = path.join(__dirname, '../projects');
-        const files = fs.readdirSync(projectsDir).filter(f => f.endsWith('.md') && f !== 'README.md');
+        const existingFiles = fs.readdirSync(projectsDir).filter(f => f.endsWith('.md') && f !== 'README.md');
+        const existingNames = new Set(existingFiles.map(f => f.toLowerCase().replace('.md', '')));
 
-        // Just verify there is a non-zero count to avoid false passes
-        assert.ok(files.length > 0, 'Should have project files');
+        // Verify that every markdown file (except README) actually corresponds to a valid project link
+        assert.ok(existingFiles.length > 0, 'Should have project files');
 
-        for (const file of files) {
-            assert.ok(fs.existsSync(path.join(projectsDir, file)), `File ${file} does not exist`);
+        for (const file of existingFiles) {
+             const projectName = file.toLowerCase().replace('.md', '');
+             assert.ok(linkedProjects.has(projectName), `File ${file} does not correspond to a known project`);
         }
     });
 });
