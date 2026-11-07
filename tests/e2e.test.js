@@ -29,4 +29,16 @@ test('E2E: Profile pages and navigation', async (t) => {
         assert.ok(content.includes('../README.md'));
         assert.ok(content.includes('../README.zh-TW.md') || content.includes('繁體中文'));
     });
+
+    await t.test('README.md should link to documentation files', () => {
+        const content = fs.readFileSync(path.join(__dirname, '../README.md'), 'utf-8');
+        assert.ok(content.includes('docs/api-reference.md'));
+        assert.ok(content.includes('docs/dashboard-telemetry.md'));
+    });
+
+    await t.test('README.zh-TW.md should link to documentation files', () => {
+        const content = fs.readFileSync(path.join(__dirname, '../README.zh-TW.md'), 'utf-8');
+        assert.ok(content.includes('docs/api-reference.md'));
+        assert.ok(content.includes('docs/dashboard-telemetry.md'));
+    });
 });
