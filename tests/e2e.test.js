@@ -29,4 +29,16 @@ test('E2E: Profile pages and navigation', async (t) => {
         assert.ok(content.includes('../README.md'));
         assert.ok(content.includes('../README.zh-TW.md') || content.includes('繁體中文'));
     });
+
+    await t.test('README.md should contain core external links', () => {
+        const content = fs.readFileSync(path.join(__dirname, '../README.md'), 'utf-8');
+        assert.ok(content.includes('https://ai-sister.com'));
+        assert.ok(content.includes('mailto:ted@ted-h.com'));
+    });
+
+    await t.test('README.zh-TW.md should contain core external links', () => {
+        const content = fs.readFileSync(path.join(__dirname, '../README.zh-TW.md'), 'utf-8');
+        assert.ok(content.includes('https://ai-sister.com'));
+        assert.ok(content.includes('mailto:ted@ted-h.com'));
+    });
 });

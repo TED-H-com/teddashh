@@ -21,6 +21,24 @@ test('Dashboard Summary Metrics', async (t) => {
         assert.strictEqual(calculateTotal([], 'revenue'), 0);
     });
 
+    await t.test('calculateTotal should handle missing keys within objects', { skip: 'Product code not yet implemented' }, () => {
+        const { calculateTotal } = require('../src/dashboard/metrics');
+        const data = [{ revenue: 100 }, { other: 50 }, { revenue: 50 }];
+        assert.strictEqual(calculateTotal(data, 'revenue'), 150);
+    });
+
+    await t.test('calculateTotal should handle negative numbers', { skip: 'Product code not yet implemented' }, () => {
+        const { calculateTotal } = require('../src/dashboard/metrics');
+        const data = [{ revenue: 100 }, { revenue: -50 }];
+        assert.strictEqual(calculateTotal(data, 'revenue'), 50);
+    });
+
+    await t.test('calculateTotal should handle non-numeric values gracefully', { skip: 'Product code not yet implemented' }, () => {
+        const { calculateTotal } = require('../src/dashboard/metrics');
+        const data = [{ revenue: 100 }, { revenue: '50' }, { revenue: null }];
+        assert.strictEqual(calculateTotal(data, 'revenue'), 100);
+    });
+
     await t.test('calculateGrowth should calculate correct percentage', { skip: 'Product code not yet implemented' }, () => {
         const { calculateGrowth } = require('../src/dashboard/metrics');
         assert.strictEqual(calculateGrowth(150, 100), 50);
@@ -41,6 +59,11 @@ test('Card Layouts', async (t) => {
         assert.deepStrictEqual(getCardDimensions('medium'), { width: 400, height: 300 });
         assert.deepStrictEqual(getCardDimensions('large'), { width: 800, height: 600 });
         assert.deepStrictEqual(getCardDimensions('unknown'), { width: 400, height: 300 }); // Default
+    });
+
+    await t.test('getCardDimensions should handle undefined argument', { skip: 'Product code not yet implemented' }, () => {
+        const { getCardDimensions } = require('../src/dashboard/layouts');
+        assert.deepStrictEqual(getCardDimensions(undefined), { width: 400, height: 300 }); // Default
     });
 
     await t.test('getResponsiveColumns should calculate correct columns based on width', { skip: 'Product code not yet implemented' }, () => {
@@ -70,6 +93,11 @@ test('Data Transformation Utilities', async (t) => {
         const { formatChartData } = require('../src/utils/formatters');
         const raw = [{ a: '1' }];
         assert.deepStrictEqual(formatChartData(raw, 'x', 'y'), [{ x: '', y: 0 }]);
+    });
+
+    await t.test('formatChartData should handle empty array', { skip: 'Product code not yet implemented' }, () => {
+        const { formatChartData } = require('../src/utils/formatters');
+        assert.deepStrictEqual(formatChartData([], 'x', 'y'), []);
     });
 
     await t.test('formatCurrency should format correctly', { skip: 'Product code not yet implemented' }, () => {

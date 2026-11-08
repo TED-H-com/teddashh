@@ -52,4 +52,34 @@ test('Integration: Project and Asset Links', async (t) => {
             assert.ok(content.includes('../README.md') || content.includes('../README.zh-TW.md'), `File ${file} is missing back-links`);
         }
     });
+
+    await t.test('README.md should link to existing docs on disk', () => {
+        const content = fs.readFileSync(path.join(__dirname, '../README.md'), 'utf-8');
+        const docRegex = /docs\/[a-zA-Z0-9_-]*\.md/g;
+        let match;
+        const docs = new Set();
+        while ((match = docRegex.exec(content)) !== null) {
+            docs.add(match[0]);
+        }
+        assert.ok(docs.size > 0, "No docs found in README.md");
+        for (const doc of docs) {
+            const docPath = path.join(__dirname, '..', doc);
+            assert.ok(fs.existsSync(docPath), `Doc ${doc} does not exist`);
+        }
+    });
+
+    await t.test('README.zh-TW.md should link to existing docs on disk', () => {
+        const content = fs.readFileSync(path.join(__dirname, '../README.zh-TW.md'), 'utf-8');
+        const docRegex = /docs\/[a-zA-Z0-9_-]*\.md/g;
+        let match;
+        const docs = new Set();
+        while ((match = docRegex.exec(content)) !== null) {
+            docs.add(match[0]);
+        }
+        assert.ok(docs.size > 0, "No docs found in README.zh-TW.md");
+        for (const doc of docs) {
+            const docPath = path.join(__dirname, '..', doc);
+            assert.ok(fs.existsSync(docPath), `Doc ${doc} does not exist`);
+        }
+    });
 });
