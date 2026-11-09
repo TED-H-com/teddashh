@@ -52,4 +52,26 @@ test('Integration: Project and Asset Links', async (t) => {
             assert.ok(content.includes('../README.md') || content.includes('../README.zh-TW.md'), `File ${file} is missing back-links`);
         }
     });
+
+    await t.test('internal markdown links in READMEs should be valid', () => {
+        const readmes = ['../README.md', '../README.zh-TW.md'];
+        for (const readme of readmes) {
+            const content = fs.readFileSync(path.join(__dirname, readme), 'utf-8');
+
+            // Matches relative links to markdown files, e.g. [Link Text](./docs/something.md)
+            const linkRegex = /\[[^\]]+\]\(\.\/([^)]+\.md)\)/g;
+            let match;
+            const links = new Set();
+            while ((match = linkRegex.exec(content)) !== null) {
+                links.add(match[1]);
+            }
+
+            assert.ok(links.size > 0, `No internal markdown links found in ${readme}`);
+
+            for (const link of links) {
+                const linkPath = path.join(__dirname, '..', link);
+                assert.ok(fs.existsSync(linkPath), `Link ${link} in ${readme} points to a missing file`);
+            }
+        }
+    });
 });

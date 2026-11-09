@@ -29,4 +29,25 @@ test('E2E: Profile pages and navigation', async (t) => {
         assert.ok(content.includes('../README.md'));
         assert.ok(content.includes('../README.zh-TW.md') || content.includes('繁體中文'));
     });
+
+    await t.test('README.zh-TW.md structure should match README.md', () => {
+        const enContent = fs.readFileSync(path.join(__dirname, '../README.md'), 'utf-8');
+        const twContent = fs.readFileSync(path.join(__dirname, '../README.zh-TW.md'), 'utf-8');
+
+        // Count headers
+        const getHeaderCount = (content) => (content.match(/^## /gm) || []).length;
+        assert.strictEqual(getHeaderCount(twContent), getHeaderCount(enContent), 'Header count mismatch between languages');
+
+        // Extract and compare project names (assuming they're inside <strong><a href="..."> tags)
+        const getProjectNames = (content) => {
+            const matches = content.match(/<strong><a href="[^"]+">([^<]+)<\/a><\/strong>/g) || [];
+            return matches.map(match => match.replace(/<strong><a href="[^"]+">([^<]+)<\/a><\/strong>/, '$1'));
+        };
+        const enProjects = getProjectNames(enContent);
+        const twProjects = getProjectNames(twContent);
+
+        // We know from the repository there are 23 projects mentioned.
+        assert.ok(enProjects.length >= 23, `Expected at least 23 projects, found ${enProjects.length} in English README`);
+        assert.strictEqual(twProjects.length, enProjects.length, 'Project count mismatch between languages');
+    });
 });
