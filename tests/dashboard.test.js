@@ -109,4 +109,28 @@ test('Performance Benchmarks', async (t) => {
         const memAfter = process.memoryUsage().heapUsed;
         assert.ok((memAfter - memBefore) < 1024 * 1024, 'Memory allocation exceeded 1MB during calculateTotal');
     });
+
+    await t.test('bottlenecks: widget render time should be under 16ms to maintain 60fps', { skip: 'Product code not yet implemented' }, () => {
+        const { renderWidget } = require('../src/dashboard/widgets');
+        const start = performance.now();
+        renderWidget({ type: 'complex', data: [] });
+        const end = performance.now();
+        assert.ok((end - start) < 16, 'Widget rendering is a bottleneck, taking over 16ms');
+    });
+
+    await t.test('optimization: should not perform redundant API calls', { skip: 'Product code not yet implemented' }, async () => {
+        const { fetchMetrics } = require('../src/dashboard/metrics');
+        // Mocking API call to track redundancy
+        const metrics = await fetchMetrics({ deduplicate: true });
+        assert.strictEqual(metrics.apiCallsMade, 1, 'Redundant API calls detected');
+    });
+
+    await t.test('memory: data processing should not leak memory during large aggregations', { skip: 'Product code not yet implemented' }, () => {
+        const { aggregateData } = require('../src/dashboard/data');
+        const hugeDataset = Array.from({ length: 100000 }, (_, i) => ({ value: i }));
+        const memBefore = process.memoryUsage().heapUsed;
+        aggregateData(hugeDataset);
+        const memAfter = process.memoryUsage().heapUsed;
+        assert.ok((memAfter - memBefore) < 5 * 1024 * 1024, 'Memory allocation exceeded 5MB during data aggregation');
+    });
 });
